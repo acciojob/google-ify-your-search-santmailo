@@ -1,1 +1,15 @@
 /*  your css code here. If applicable */
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+#navigation{
+	display:flex;
+	justify-content: flex-end;
+	gap: 20px;
+}
